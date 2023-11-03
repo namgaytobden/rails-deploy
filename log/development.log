@@ -1,0 +1,40 @@
+Started GET "/" for 172.17.0.1 at 2023-05-26 11:25:45 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloWorldController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello_world/index.html.erb within layouts/application
+  Rendered hello_world/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 384)
+  Rendered layout layouts/application.html.erb (Duration: 167.2ms | Allocations: 68854)
+Completed 200 OK in 173ms (Views: 170.1ms | Allocations: 71597)
+
+
+Started GET "/" for 172.17.0.1 at 2023-05-29 04:30:30 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloWorldController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello_world/index.html.erb within layouts/application
+  Rendered hello_world/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 383)
+  Rendered layout layouts/application.html.erb (Duration: 125.4ms | Allocations: 34946)
+Completed 200 OK in 132ms (Views: 128.8ms | Allocations: 37689)
+
+
+Started GET "/" for 172.17.0.1 at 2023-05-29 12:43:07 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloWorldController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello_world/index.html.erb within layouts/application
+  Rendered hello_world/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 383)
+  Rendered layout layouts/application.html.erb (Duration: 86.0ms | Allocations: 35961)
+Completed 200 OK in 92ms (Views: 89.6ms | Allocations: 38704)
+
+
+Started GET "/" for 172.17.0.1 at 2023-05-30 07:36:59 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HelloWorldController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hello_world/index.html.erb within layouts/application
+  Rendered hello_world/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 275)
+  Rendered layout layouts/application.html.erb (Duration: 84.8ms | Allocations: 28337)
+Completed 200 OK in 96ms (Views: 91.5ms | Allocations: 30281)
+
+
