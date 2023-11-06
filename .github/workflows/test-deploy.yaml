@@ -24,4 +24,4 @@ jobs:
               with:
                 context: ./
                 file: ./Dockerfile
-                tag: ${{ vars.DOCKER_REPO }}:${{ github.sha }}
+                tag: ${{ vars.DOCKER_REPO }}:${{github.sha}}
