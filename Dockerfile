@@ -1,6 +1,6 @@
-FROM ruby:3.1.4-alpine
-
-RUN apk add --update --no-cache nodejs
+FROM ruby:3.1.4-bullseye
+ 
+RUN apt-get update && apt-get install nodejs -y
 
 RUN mkdir /app
 WORKDIR /app
