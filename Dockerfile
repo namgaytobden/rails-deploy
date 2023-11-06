@@ -1,6 +1,6 @@
 FROM ruby:3.1.4-alpine
 
-RUN apk add --update --no-cache \ nodejs
+RUN apk add --update --no-cache nodejs
 
 RUN mkdir /app
 WORKDIR /app
