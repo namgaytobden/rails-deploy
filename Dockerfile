@@ -5,7 +5,7 @@ RUN apk add --update --no-cache nodejs
 RUN mkdir /app
 WORKDIR /app
 
-COPY Gemfile Gemfile.lock ./
+COPY . /app/
 
 RUN gem install bundler && bundle install
 
