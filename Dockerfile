@@ -1,6 +1,6 @@
 FROM ruby:3.1.4-slim-bullseye
  
-RUN apt-get update && apt-get install nodejs -y
+RUN apt-get update && apt-get install -y build-essential nodejs libssl-dev libreadline-dev zlib1g-dev
 
 RUN mkdir /app
 WORKDIR /app
