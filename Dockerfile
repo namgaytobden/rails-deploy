@@ -5,9 +5,11 @@ RUN apt-get update && apt-get install -y build-essential nodejs libssl-dev libre
 RUN mkdir /app
 WORKDIR /app
 
-COPY . /app/
+COPY Gemfile Gemfile.lock ./
 
 RUN gem install bundler && bundle install
+
+COPY --exclude=Gemfile.lock . .
 
 EXPOSE 3000
 
